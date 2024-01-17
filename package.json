@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "build": "node --loader ts-node/esm src/build.ts",
     "check-type": "tsc --noEmit"
   },
   "devDependencies": {
